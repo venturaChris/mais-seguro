@@ -1,0 +1,582 @@
+.Portable{
+    background-color: #00D5B7;
+}
+.residence{
+    background-color: #E11E63;
+}
+.travel{
+    background-color: #832185;
+}
+
+.colorBack {
+    color: #FFFFFF;
+}
+
+.navContainer {
+    background-color: #FFFFFF !important;
+    padding-left: 100px;
+}
+
+.navContainer2 {
+    background-color: #FFFFFF;
+}
+.nav{
+    padding-left: 100px;
+}
+
+.buttonSeguro {
+    width: 95px;
+    height: 30px;
+    grid-row: 1;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 21px;
+    height: 24px;
+    margin-left: 164px;
+    grid-row: 1;
+}
+
+.portatilTitle {
+    width: 228px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    color: #050F4B;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.portatilDsc {
+    width: 256px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    color: #050F4B;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.portatilText {
+    width: 100%;
+    height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #414141;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.compareButton {
+    width: 100%;
+    height: 40px;
+    background: #050F4B;
+    border-radius: 20px;
+    color: #FFFFFF;
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.backImg {
+    max-width: 475px;
+    max-height: 348px;
+    padding: 15px;
+
+}
+
+.divImgBack {
+    max-width: 475px;
+    max-height: 348px;
+}
+
+.dscBack {
+    width: 300px;
+    min-height: 286px;
+    padding: 0px 15px 0px 0px;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 5;
+}
+
+.div {
+    display: grid;
+    justify-content: space-between;
+}
+
+.main1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    background-color: #FFFFFF;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    position: absolute;
+    flex-wrap: wrap;
+
+
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.section1>div {
+    flex: 1 1 200px;
+}
+
+a {
+    border-radius: 12px 12px 0px 0px;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 73px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.divIcons {
+    color: #FFFFFF;
+    width: 180px;
+
+    margin-right: 18px;
+}
+
+.main2 {
+    width: 100%;
+    height: 600px;
+    background-color: #050F4B;
+    position: absolute;
+    top: 365px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.section2 {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgMain4 {
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;
+}
+
+.divSec {
+    max-width: 400px;
+    display: flex;
+}
+
+.p {
+    color: #FFFFFF;
+    padding-top: 15%;
+
+}
+
+.divTitle2 {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.hr {
+    color: #FFFFFF;
+
+}
+
+.p1,
+.p2 {
+    text-align: center;
+
+}
+
+
+.main4 {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 515px;
+    position: absolute;
+    top: 1313px;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+
+.txtMain4 {
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    padding: 10px;
+    grid-row: 1;
+}
+
+.txtMain4>h2 {
+    font-size: 20px;
+    color: #050F4B;
+}
+
+.txtMain4>p {
+    font-size: 15px;
+    color: #050F4B;
+}
+
+.pMain4 {
+    color: #414141;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 1864px;
+    background-color: #050F4B;
+    display: grid;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 {
+    max-width: 300px;
+    font-size: 8px;
+
+    display: grid;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.imgFooter {
+    display: grid;
+    justify-content: center;
+}
+
+.imgFooter>img {
+    width: 90px;
+}
+
+.txtFooter {
+    text-align: center;
+}
+
+.section4 {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divIcons1 {
+    color: #FFFFFF;
+    width: 180px;
+    height: 250px;
+    margin-right: 18px;
+
+}
+
+.sec4 {
+    max-width: 400px;
+    display: flex;
+    height: 250px;
+
+}
+
+.icons1 {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 73px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.main3 {
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    top: 964px;
+
+    padding: 20px 0px 35px 0px;
+}
+
+.main3>h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 29px;
+    padding: 10px;
+    color: #050F4B;
+    text-align: center;
+
+}
+
+.divMain3 {
+    max-width: 800px;
+    display: grid;
+    justify-content: center;
+}
+
+.divMain3>a {
+    width: 800px;
+    border-radius: 50px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #050F4B;
+    background-color: #FFFFFF;
+    text-decoration: none;
+
+    padding: 15px;
+}
+.colorNav{
+    color: #050F4B;
+}
+.green:hover {
+    color: #00D5B7;
+}
+.purple:hover {
+    color: #832185;
+}
+.pink:hover {
+    color: #E11E63;
+}
+.colorBack:hover{
+    color: #050F4B;
+}
+
+
+@media only screen and (max-width: 798px) {
+    .section1 {
+        margin-top: 30px;
+        max-width: 300px;
+        height: 450px;
+        justify-content: center;
+        padding: 15px;
+
+
+    }
+
+    .section4 {
+        max-width: 300px;
+        flex-wrap: wrap;
+        height: 450px;
+    }
+
+    .txtMain4 {
+        height: 290px;
+        width: 302px;
+    }
+
+    .txtMain4>h2 {
+        font-size: 19px;
+    }
+
+    .txtMain4>p {
+        font-size: 17px;
+    }
+
+    .backImg {
+        max-width: 300px;
+        max-height: 250px;
+        padding-top: 0px;
+    }
+
+    .dscBack {
+        padding: 0px;
+        margin: 0px;
+        min-height: 233px;
+
+    }
+
+    .portatilTitle {
+        font-size: 30px;
+        color: #050F4B;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .portatilDsc {
+        font-size: 19px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .portatilText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .compareButton {
+        font-size: 13px;
+        background: #050F4B;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main1 {
+        height: 700px;
+        align-items: baseline;
+    }
+
+    .main2 {
+        top: 443px;
+        height: 819px;
+    }
+
+    .main4 {
+        top: 1572px;
+        padding-top: 24px
+    }
+
+    .icon {
+        margin-left: 66%;
+    }
+
+    .section2 {
+        margin-top: 10px;
+        max-width: 300px;
+    }
+
+    .divSec {
+        margin: 0px;
+        padding: 0px;
+        max-width: 300px
+    }
+
+    .icons {
+        width: 130px;
+        height: 130px;
+        margin-left: 10px;
+    }
+
+    .divIcons {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .section4 {
+        margin: 10px;
+        max-width: 300px;
+    }
+
+    .sec4 {
+        margin: 0px;
+        padding: 0px;
+        max-width: 400px;
+        height: 200px;
+    }
+
+    .icons1 {
+        width: 130px;
+        height: 130px;
+        margin-left: 10px;
+    }
+
+    .divIcons1 {
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .p {
+        padding-top: 64%;
+    }
+
+    .divTitle2 {
+        justify-content: left;
+    }
+
+    .divIcons1 {
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .sec4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icons1 {
+        width: 150px;
+        height: auto;
+    }
+
+
+    .icons1>img {
+        width: 150px;
+    }
+
+    .pMain4 {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .main3 {
+        top: 1262px;
+        height: 310px;
+    }
+
+    .footer {
+        top: 2347px;
+    }
+    .divMain3>a {
+        width: 300px;
+        height: 43px;
+        font-size: 13px;
+        padding: 11px;
+    }
+    .navContainer {
+        padding-left: 50px;
+    }
+    
+    .nav{
+        padding-left: 50px !important;
+    }
+    .buttonSeguro{
+        width: 69px;
+        height: 22px;
+    }
+    .main3>h2 {
+        text-align: left;
+    }
+
+}
+@media only screen and (max-width: 329px)
+{
+    .nav {
+        padding-left: 26px !important;
+    }
+}
